@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky" id="navbar"
+  (scroll)="onWindowScroll($event);">
+  <div class="container">
+    <!-- Brand -->
+    <a class="navbar-brand"routerLink="/">Shriram Salunkhe</a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <ul class="list-unstyled mb-0 mt-2 mt-sm-0 social-icon light-social-icon">
+        <li class="list-inline-item"><a class="social-icon" href="https://www.linkedin.com/in/shriram-salunkhe-677215106/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li class="list-inline-item"><a class="social-icon" href="https://github.com/shriram0436" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li class="list-inline-item"><a class="social-icon" href="https://twitter.com/Shriramsalunkhe" target="_blank"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>

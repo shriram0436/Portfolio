@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.text-primary{
+    color: #f89d36 !important;
+}
+.btn-primary{
+    background-color: #f89d36 !important;
+    border: #f89d36;
+    color: #fff;
+}
+.btn-outline-primary{
+    border: 1px solid #f89d36;
+    color: #f89d36;
+    background-color: transparent;
+}
+.btn-outline-primary:hover{
+    background-color: #f89d36;
+    border: #fff;
+}
+.rounded {
+    border-radius: 7px !important;
+}
+.font-italic {
+    font-style: italic!important;
+}

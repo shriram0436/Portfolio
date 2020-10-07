@@ -1,0 +1,101 @@
+.personal_bg {
+  background-image: url('../../../assets/images/shriram.jpg');
+}
+
+.bg-home {
+  padding: 210px 0;
+  background-size: cover;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  position: relative;
+  background-position: center center;
+}
+
+.bg-overlay {
+  background-color: rgba(60, 72, 88, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mouse-icon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 42px;
+  bottom: 30px;
+  margin: auto;
+  width: 30px;
+  z-index: 2;
+  color: #fff;
+}
+
+@media (max-width: 767px) and (min-width: 200px) {
+
+  .bg-home,
+  .bg-half {
+    padding: 150px 0;
+    height: auto;
+  }
+
+  .bg-home {
+    padding: 260px 0;
+    background-size: cover;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    position: relative;
+    background-position: center center;
+  }
+}
+
+/* about section css */
+#about {
+    padding: 60px 0;
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.section-title p {
+    margin-bottom: 0;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.about .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #555555;
+}
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+.about .content ul li {
+    padding-bottom: 10px;
+}
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #f89d36;
+    bottom: 0;
+    left: calc(50% - 25px);
+}

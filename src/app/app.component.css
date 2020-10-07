@@ -1,0 +1,35 @@
+.nav-sticky.navbar-custom {
+    margin-top: 0px;
+    padding: 12px 0px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
+    color: #3c4858 !important;
+}
+.navbar-custom {
+    padding: 20px 0;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.navbar-light .navbar-brand{
+    color: #ccbcab !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#ccbcab !important;
+}
+.social-icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
